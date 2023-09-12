@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
- class Test{
+ class java_lab1{
     public static void main(String[] args){
      boolean cycle=true;
      while(cycle==true){
