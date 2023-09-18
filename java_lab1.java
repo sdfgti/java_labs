@@ -61,11 +61,11 @@ class Zadanie0{
 }
 class Zadanie1{
      public void sortingout(){
-      for(int A=0; A<1000; A++){
-      for(int B=0; B<5000; B++){
-       for(int C=0; C<5000; C++){
+      for(int A=0; A<10; A++){
+      for(int B=0; B<10; B++){
+       for(int C=0; C<10; C++){
           long result=A*A*A+B*B*B+C*C*C;
-           long abc=A*B*C;
+           long abc=A*100+B*10+C;
             if(result==abc && result>0){
               System.out.println(" A= "+ A + " B= " + B +" C= " + C +" Result= " + abc);
 }
